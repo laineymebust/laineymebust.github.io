@@ -3,7 +3,7 @@
 h1 {
 	font-family: 'Cutive Mono', monospace;
 	text-align: left;
-	font-size: 50px;
+	font-size: 4em;
 	font-weight: normal;
 	text-align: center;
 	padding-bottom: 10px;
@@ -12,9 +12,9 @@ h1 {
 }
 
 
-
 body {
-	font-size:16px;
+	font-size:20px;
+	font-family: 'Cormorant Garamond', serif;
 }
 
 #intro {
@@ -26,58 +26,97 @@ body {
 	font-size: 30px;
 	font-family: 'Cutive Mono', monospace;
 	text-align: center;
-	padding-bottom: 400px;
-	padding-top: 80px;
+	padding-bottom: 150px;
+	padding-top: 150px;
 	background-attachment: fixed;
 	margin-bottom: 100px;
-	}
+		}
 
+nav a:hover {
+	background-image: url("../images/nav.jpg");
+	background-repeat: no-repeat;
+}
 
-.topnav {
+nav a {
 	font-family: 'Cutive Mono', monospace;
 	padding:5px;
 	text-align: center;
 	font-size:30px;
 	color: black;
-	border: solid 1px black;
-	margin:5px;
-	width:200px
+	margin bottom: 10em;
+	padding: 1em;
+	}	
+
+
+nav {
+	text-align: center;
+	display: block;
+	padding-bottom: 3em;
 }
-
-
 
 body {
-	font-size:1em;
-	font-family: 'Cutive Mono', monospace;
-}
-
-#journal {
-	margin-left: 10%;
-	margin-right: 10%;
-	font-family: 'Cutive Mono', monospace;
-	}
-
-.articlecontent {
-	width:30em;
+		font-family: 'Cutive Mono', monospace;
 }
 
 
 a {
-	color: inherit;
+	color: #4da6ff;
 	text-decoration: none;
 }
 
-
 h2 {
-	margin: 20px;
 	text-align: center;
-	font-size: 2em;
+	font-size: 3em;
 	font-weight: normal;
-	}
+}
 
 
 h3 {
-	font-size: 1.5em;
+	font-size: 2.5em;
 	font-weight: normal;
+
+}
+
+footer { 
+text-align: center;
+}
+
+
+#two_column {
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: 'Cormorant Garamond';
+	font-size: 1em;
+		}
+
+#left {
+    float: left;
+    width: 600px;
+    margin: 20px;
+    }
+
+#right {
+    float: left;
+    width: 600px;
+    margin: 20px;
+   }
+
+.clearfix:after {
+	visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+footer {
+	font-family: 'Cormorant Garamond', serif;
+}
+
+#editorial {
+	font-family: 'Cormorant Garamond', serif;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
