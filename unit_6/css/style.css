@@ -1,17 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Cardo|Cormorant+Garamond|Cutive+Mono');
 
+
+* {
+	margin:0; 
+	padding: 0; 
+	box-sizing: border-box;
+	}
+
 h1 {
 	font-family: 'Cutive Mono', monospace;
-	text-align: left;
 	font-size: 4em;
 	font-weight: normal;
-	text-align: center;
-
 	text-transform: bold;
-	margin-top: 100px;
-	margin-bottom: 100px;
+	margin-bottom: .5em;
 }
 
+header {
+	padding: 2em;
+	text-align: center;
+}
 
 body {
 	font-size:20px;
@@ -19,7 +26,7 @@ body {
 	}
 
 #intro {
-	background-image: url("../images/intro.Jpg");
+	background-image: url("../images/intro.JPG");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100%;
@@ -32,12 +39,14 @@ body {
 	background-attachment: fixed;
 	margin-bottom: 100px;
 	line-height: 2em;
+	min-height: 70vh;
 		}
 
 nav a:hover {
 	background-image: url("../images/nav.jpg");
 	background-repeat: no-repeat;
-}
+	background-position: top center;
+	}
 
 nav a {
 	font-family: 'Cutive Mono', monospace;
@@ -45,20 +54,9 @@ nav a {
 	text-align: center;
 	font-size:30px;
 	color: black;
-	margin bottom: 10em;
 	padding: 1em;
 	}	
 
-
-nav {
-	text-align: center;
-	display: block;
-	padding-bottom: 3em;
-}
-
-body {
-		font-family: 'Cutive Mono', monospace;
-}
 
 
 a {
@@ -70,6 +68,7 @@ h2 {
 	text-align: center;
 	font-size: 3em;
 	font-weight: normal;
+	margin-bottom: 1em;
 }
 
 
@@ -82,40 +81,78 @@ h3 {
 h4 {
 	line-height: 1.5em;
 	padding-bottom: 1em;
+	font-weight: 400;
 }
 
-footer { 
-text-align: center;
-}
-
-h2 {
-	margin-bottom: 100px;
-}
 
 #two_column {
-	margin-left: 10%;
-	margin-right: 10%;
 	font-family: 'Cormorant Garamond';
 	font-size: 1em;
+	width: 75em;
+	margin: auto;
+	margin-bottom: 2em;
 		}		
 
-#left {
+.latestposts {
     float: left;
-    width: 600px;
-    margin: 20px;
-    }
+    width: 33.3%;
+    padding: 1em;
+        }
 
-#center {
-    float: left;
-    width: 600px;
-    margin: 20px;
-   }
+.latestposts img{
+  	width: 100%;
+  	display:block;
+  }
 
-   #right {
-   	float: left;
-   	width: 600px;
-   	margin: 20px;
-   }
+.latestposts p {
+	margin: 1em 0 0;
+}
+.example {
+	position:relative;
+	display:block;
+}
+.example div {
+	color:rgba(255,255,255,0);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(128,0,128,0);
+    transition-duration: 1s;
+}
+.example p {
+	font-size:2em;
+	margin:0;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+
+.example:hover div {
+	background: rgba(145,210,224,0.75);
+	color:rgba(255,255,255,.9);
+}
+
+#collage {
+	font-family: 'Cormorant Garamond', serif;
+	margin: auto;
+	width: 75em;
+	}		
+
+
+footer {
+	font-family: 'Cormorant Garamond', serif;
+	margin-top: 3em;
+	text-align: center;
+}
+
+#mail {
+	font-size: 2em;
+	padding-bottom: 2em;
+	color: white;
+}
 
 .clearfix:after {
 	visibility: hidden;
@@ -125,17 +162,4 @@ h2 {
     clear: both;
     height: 0;
 }
-
-footer {
-	font-family: 'Cormorant Garamond', serif;
-}
-
-#editorial {
-	font-family: 'Cormorant Garamond', serif;
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-top: 200px;
-}
-
-
 
