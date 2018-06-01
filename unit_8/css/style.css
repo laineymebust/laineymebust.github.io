@@ -88,7 +88,7 @@ h4 {
 #two_column {
 	font-family: 'Cormorant Garamond';
 	font-size: 1em;
-	width: 75em;
+	max-width: 75em;
 	margin: auto;
 	margin-bottom: 2em;
 		}		
@@ -97,6 +97,7 @@ h4 {
     float: left;
     width: 33.3%;
     padding: 1em;
+    min-height: 32em
         }
 
 .latestposts img{
@@ -138,7 +139,7 @@ h4 {
 #collage {
 	font-family: 'Cormorant Garamond', serif;
 	margin: auto;
-	width: 75em;
+	max-width: 75em;
 		}		
 
 #collage p{
