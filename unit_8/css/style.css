@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo|Cormorant+Garamond|Cutive+Mono');
+
+
+* {
+	margin:0; 
+	padding: 0; 
+	box-sizing: border-box;
+	}
+
+h1 {
+	font-family: 'Cutive Mono', monospace;
+	font-size: 4em;
+	font-weight: normal;
+	text-transform: bold;
+	margin-bottom: .5em;
+}
+
+header {
+	padding: 2em;
+	text-align: center;
+}
+
+body {
+	font-size:20px;
+	font-family: 'Cormorant Garamond', serif;
+	}
+
+#intro {
+	background-image: url("../images/intro.JPG");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	color: white;
+	font-size: 30px;
+	font-family: 'Cutive Mono', monospace;
+	text-align: center;
+	padding-top: 300px;
+	padding-bottom: 300px;
+	background-attachment: fixed;
+	margin-bottom: 100px;
+	line-height: 2em;
+	min-height: 70vh;
+		}
+
+nav a:hover {
+	background-image: url("../images/nav.jpg");
+	background-repeat: no-repeat;
+	background-position: top center;
+	}
+
+nav a {
+	font-family: 'Cutive Mono', monospace;
+	padding:5px;
+	text-align: center;
+	font-size:30px;
+	color: black;
+	padding: 1em;
+	}	
+
+
+
+a {
+	color: #4da6ff;
+	text-decoration: none;
+}
+
+h2 {
+	text-align: center;
+	font-size: 3em;
+	font-weight: normal;
+	margin-bottom: 1em;
+}
+
+
+h3 {
+	font-size: 2.5em;
+	font-weight: normal;
+	line-height: 1.5em;
+}
+
+h4 {
+	line-height: 1.5em;
+	padding-bottom: 1em;
+	font-weight: 400;
+}
+
+
+#two_column {
+	font-family: 'Cormorant Garamond';
+	font-size: 1em;
+	width: 75em;
+	margin: auto;
+	margin-bottom: 2em;
+		}		
+
+.latestposts {
+    float: left;
+    width: 33.3%;
+    padding: 1em;
+        }
+
+.latestposts img{
+  	width: 100%;
+  	display:block;
+  }
+
+.latestposts p {
+	margin: 1em 0 0;
+}
+.example {
+	position:relative;
+	display:block;
+}
+.example div {
+	color:rgba(255,255,255,0);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(128,0,128,0);
+    transition-duration: 1s;
+}
+.example p {
+	font-size:2em;
+	margin:0;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+
+.example:hover div {
+	background: rgba(145,210,224,0.75);
+	color:rgba(255,255,255,.9);
+}
+
+#collage {
+	font-family: 'Cormorant Garamond', serif;
+	margin: auto;
+	width: 75em;
+	}		
+
+
+footer {
+	font-family: 'Cormorant Garamond', serif;
+	margin-top: 3em;
+	text-align: center;
+}
+
+#mail {
+	font-size: 2em;
+	padding-bottom: 2em;
+	color: white;
+}
+
+.clearfix:after {
+	visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
