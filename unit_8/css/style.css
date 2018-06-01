@@ -139,7 +139,11 @@ h4 {
 	font-family: 'Cormorant Garamond', serif;
 	margin: auto;
 	width: 75em;
-	}		
+		}		
+
+#collage p{
+	margin-bottom: 10px;
+}
 
 
 footer {
@@ -151,7 +155,25 @@ footer {
 #mail {
 	font-size: 2em;
 	padding-bottom: 2em;
+	padding-top: 2em;
 	color: white;
+}
+
+#editorial {
+	background-image: url("../images/break.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	color: white;
+	font-size: 30px;
+	font-family: 'Cutive Mono', monospace;
+	text-align: center;
+	padding-top: 300px;
+	padding-bottom: 300px;
+	background-attachment: fixed;
+	margin-bottom: 100px;
+	line-height: 2em;
+	min-height: 70vh;
 }
 
 .clearfix:after {
