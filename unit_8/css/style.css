@@ -139,7 +139,8 @@ h4 {
 #collage {
 	font-family: 'Cormorant Garamond', serif;
 	margin: auto;
-	max-width: 75em;
+	width: 680px;
+	padding: 20px;
 		}		
 
 #collage p{
@@ -147,18 +148,19 @@ h4 {
 }
 
 
-footer {
-	font-family: 'Cormorant Garamond', serif;
-	margin-top: 3em;
-	text-align: center;
-}
+
 
 #mail {
 	font-size: 2em;
-	padding-bottom: 2em;
-	padding-top: 2em;
+	padding-bottom: 3em;
 	color: white;
 }
+
+#mail a {
+	color: white;
+	padding: 1em;
+}
+
 
 #editorial {
 	background-image: url("../images/break.jpg");
@@ -186,3 +188,21 @@ footer {
     height: 0;
 }
 
+footer {
+	background-image: url("../images/glamp.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	padding-bottom: 200px;
+	background-attachment: fixed;
+	font-family: 'Cormorant Garamond', serif;
+	margin-top: 3em;
+	text-align: center;
+}
+
+footer a {
+	color: white;
+}
