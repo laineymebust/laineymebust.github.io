@@ -234,4 +234,10 @@ footer a {
 	#collage img {
 		width: 100%;
 	}
+	h1 {
+		font-size: 1em;
+	}
+	nav { 
+		font-size: 1em;
+		}
 }
