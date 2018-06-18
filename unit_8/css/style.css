@@ -5,6 +5,7 @@
 	margin:0; 
 	padding: 0; 
 	box-sizing: border-box;
+	font-size: 16px;
 	}
 
 h1 {
@@ -18,10 +19,10 @@ h1 {
 header {
 	padding: 2em;
 	text-align: center;
+	font-size: 16px;
 }
 
 body {
-	font-size:20px;
 	font-family: 'Cormorant Garamond', serif;
 	}
 
@@ -31,14 +32,14 @@ body {
 	background-position: center;
 	background-size: 100%;
 	color: white;
-	font-size: 30px;
 	font-family: 'Cutive Mono', monospace;
+	font-size: 2em;
 	text-align: center;
-	padding-top: 300px;
-	padding-bottom: 300px;
+	padding-top: 10%;
+	padding-bottom: 10%;
 	background-attachment: fixed;
-	margin-bottom: 100px;
-	line-height: 2em;
+	margin-bottom: 10%;
+	line-height: 1em;
 	min-height: 70vh;
 		}
 
@@ -50,14 +51,12 @@ nav a:hover {
 
 nav a {
 	font-family: 'Cutive Mono', monospace;
-	padding:5px;
+	padding:5em;
 	text-align: center;
-	font-size:30px;
+	font-size:2em;
 	color: black;
 	padding: 1em;
 	}	
-
-
 
 a {
 	color: #4da6ff;
@@ -68,7 +67,10 @@ h2 {
 	text-align: center;
 	font-size: 3em;
 	font-weight: normal;
-	margin-bottom: 1em;
+	background-image: url("../images/logo2.jpg");
+	background-repeat: no-repeat;
+	background-position: top center;
+	padding-bottom: 1em;
 }
 
 
@@ -84,18 +86,24 @@ h4 {
 	font-weight: 400;
 }
 
+h6 {
+	font-weight: normal;
+	text-align: center;
+	margin-bottom: 1em;
+}
 
-#two_column {
+
+#journal {
 	font-family: 'Cormorant Garamond';
 	font-size: 1em;
 	max-width: 75em;
 	margin: auto;
-	margin-bottom: 2em;
+	margin-bottom: 3em;
 		}		
 
 .latestposts {
     float: left;
-    width: 33.3%;
+    width: 33%;
     padding: 1em;
     min-height: 32em
         }
@@ -139,42 +147,27 @@ h4 {
 #collage {
 	font-family: 'Cormorant Garamond', serif;
 	margin: auto;
-	width: 680px;
-	padding: 20px;
+	width: 80%;
+	text-align: center;
 		}		
 
-#collage p{
-	margin-bottom: 10px;
+#collage img{
+	padding: 1%;
+	width: 40%;
 }
-
-
-
-
-#mail {
-	font-size: 2em;
-	padding-bottom: 3em;
-	color: white;
-}
-
-#mail a {
-	color: white;
-	padding: 1em;
-}
-
 
 #editorial {
-	background-image: url("../images/break.jpg");
+	background-image: url("../images/glamp.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100%;
 	color: white;
-	font-size: 30px;
+	font-size: 2em;
 	font-family: 'Cutive Mono', monospace;
-	text-align: center;
-	padding-top: 300px;
-	padding-bottom: 300px;
+	text-align: left;
+	padding-top: 25%;
 	background-attachment: fixed;
-	margin-bottom: 100px;
+	margin-bottom: 10%;
 	line-height: 2em;
 	min-height: 70vh;
 }
@@ -189,20 +182,38 @@ h4 {
 }
 
 footer {
-	background-image: url("../images/glamp.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 100%;
-	color: white;
-	font-size: 30px;
+	margin-top: 5%;
 	text-align: center;
-	padding-bottom: 200px;
-	background-attachment: fixed;
 	font-family: 'Cormorant Garamond', serif;
-	margin-top: 3em;
-	text-align: center;
+	margin-top: 10em;
 }
+
+
+#mail {
+	padding-bottom: 3em;
+	background-color: rgb(211,211,211);
+	width: 40%;
+	margin: auto;
+	color: white;
+	font-size: 2em;
+	text-align: center;
+	font-family: 'Cutive Mono', monospace;
+	padding: 2.5%;
+	margin-bottom: 6em;
+	margin-top: 1em;
+	font-size: 2em;
+}
+
 
 footer a {
 	color: white;
+}
+
+#end {
+	background-color: black;
+	color: white;
+	padding: 2%;
+	font-family: 'Cutive Mono', monospace;
+	line-height: 1em;
+	font-size: 2em;
 }
