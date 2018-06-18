@@ -157,7 +157,7 @@ h6 {
 }
 
 #editorial {
-	background-image: url("../images/glamp.jpg");
+	background-image: url("../images/editorial.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100%;
@@ -230,14 +230,20 @@ footer a {
 	}
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 600px) {
 	#collage img {
 		width: 100%;
 	}
+	
+}
+
+@media only screen and (max-width: 320px) 
 	h1 {
 		font-size: 1em;
-	}
+		}
+	
 	nav { 
 		font-size: 1em;
 		}
-}
+
+	}
